@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #B1599C;
+    background: url(../img/wallpaper.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: #F2F2FE;
+	min-height: 100vh;
+	padding: 25px 50px 0 50px;
+	box-shadow: 0px 0px 10px 3px #F2F2FE;
+}
+
+h1, h2, h3 {
+	font-family: 'Leckerli One', cursive;
+	font-size: 35px;
+	color: #B1599C;
+	text-align: center;
+}
+
+h1 {
+	font-size: 55px;
+	color: #8E006B;
+}
+
+h2 {
+	font-size: 45px;
+	color: #8E006B;
+}
+
+.billets-container {
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 0 50px 0 50px;
+	margin-top: 60px;
+	text-align: justify;
+}
+
+form {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.input-form, textarea {
+	text-decoration: none;
+	width: 500px;
+	padding: 0 15px;
+}
+
+.input-form {
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+ textarea {
+ 	padding-top: 15px;
+ 	min-height: 200px;
+ }
+
+.button-submit {
+	display: block;
+	max-width: 25%;
+	text-decoration: none;
+	padding: 5px 15px;
+	border: 2px solid #FEBFEF;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	color: #FE80DF;
+	margin: 30px 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-family: 'Leckerli One', cursive;
+}
+
+.button-submit-admin {
+	color: #B1599C;
+	margin-top: 80px;
+	margin-bottom: 0px;
+}
+
+.button-submit-admin2 {
+	margin-top: 20px;
+}
+
+.button-submit:hover {
+	color: #FEBFEF;
+}
+
+.titre-commentaires{
+	margin: 20px 0;
+}
+
+.titre-actus {
+	margin-bottom: 20px;
+}
+
+.check-commentaires {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.date-billets {
+	font-weight: bold;
+	font-size: 1.1em;
+	font-family: 'Leckerli One', cursive;
+}
+
+.hr-design{
+	text-decoration: none;
+	border: none;
+	background-color: pink;
+	height: 2px;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+.button-submit-ajout {
+	min-width: 100px;
+	max-width: 100px;
+	font-size: 1em;
+	padding: 0;
+}
+
+img {
+	display: block;
+	width: 1000px;
+	height: 250px;
+	box-shadow: 0px 0px 10px 3px #F2F2FE;
+}
+
+.bold-class {
+	font-weight: bold;
+}
+
+.titre-commentaires2{
+	color: #B1599C;
+}
+
+.hr-design2 {
+	text-decoration: none;
+	border: none;
+	background-color: pink;
+	width: 300px;
+	height: 2px;
+}
+
+.color-blue-admin {
+	color: #272D7D;
+}
